@@ -25,7 +25,7 @@ data = {
 
 @app.route("/")
 def index():
-        return "Welcome To My Drinks API"
+        return "Welcome To My API"
 
 @app.route('/drinks')
 def get_drinks():
